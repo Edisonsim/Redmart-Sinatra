@@ -4,8 +4,8 @@ require 'rubygems'
 require 'bundler'
 Bundler.require
 # this is the model
-require './models/book'
+require './models/user'
 
 # this is the controller
 require './app'
-run Restful_sinatra
+run RedmartSinatraApp

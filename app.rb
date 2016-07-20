@@ -1,17 +1,16 @@
-class Restful_sinatra < Sinatra::Base
+class RedmartSinatraApp < Sinatra::Base
 
-  get '/wdi' do
-    erb 'My Restful_sinatra website'
+  get '/' do
+    erb 'Redmart_sinatra website'
   end
 
-  get '/books' do
+  get '/users' do
     #@books = ['Harry Potter', 'Yakuza moon']
-    @books = Book.all
-  erb :'books'
+    @users = User.all
+  erb :'users'
+
   end
 
-  get '/books/:id' do
-    erb :'each_book'
-  end
+
 
 end
