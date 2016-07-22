@@ -1,11 +1,10 @@
-#No need to change anything this
-
 require 'rubygems'
 require 'bundler'
 Bundler.require
-# this is the model
+
+# LOAD MODEL
 require './models/user'
 
-# this is the controller
+# LOAD THE APP
 require './app'
 run RedmartSinatraApp

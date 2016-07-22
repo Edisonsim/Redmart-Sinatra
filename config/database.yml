@@ -1,3 +1,9 @@
 development:
   adapter: postgresql
-  database: redmart
+  database: redmart_development
+
+production:
+  adapter: postgresql
+  database: da35r3inrhdh51
+  username: edison
+  password: 12344321
