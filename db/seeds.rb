@@ -1,5 +1,8 @@
 require './models/user'
+<<<<<<< HEAD
 require './models/product'
+=======
+>>>>>>> 1a030b5174197687577c05b176998c21f5a75891
 require 'faker'
 
 
@@ -9,6 +12,7 @@ require 'faker'
       email: Faker::Internet.email,
       address: Faker::Address.street_address
     )
+<<<<<<< HEAD
 
 end
 
@@ -21,3 +25,5 @@ end
     )
 
 end
+=======
+>>>>>>> 1a030b5174197687577c05b176998c21f5a75891

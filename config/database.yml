@@ -2,8 +2,16 @@ development:
   adapter: postgresql
   database: redmart_development
 
+<<<<<<< HEAD
 # production:
 #   adapter: postgresql
 #   database: da35r3inrhdh51
 #   username: wuswasbcltxpfo
 #   password: A1mWlmmuLxMJ0PPxQHBFXJyBKy
+=======
+production:
+  adapter: postgresql
+  database: da35r3inrhdh51
+  username: edison
+  password: 12344321
+>>>>>>> 1a030b5174197687577c05b176998c21f5a75891

@@ -11,4 +11,6 @@ require './app'
 
 # ALLOW DELETE AND PUT REQUEST
 use Rack::MethodOverride
+
+require './app'
 run RedmartSinatraApp

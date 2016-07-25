@@ -11,6 +11,7 @@ class RedmartSinatraApp < Sinatra::Base
     erb :'users/index'
   end
 
+<<<<<<< HEAD
   get '/users/:id' do
     if params[:id] == 'new'
       erb :'users/new'
@@ -18,6 +19,15 @@ class RedmartSinatraApp < Sinatra::Base
       @user = User.find(params[:id])
       erb :'users/show'
     end
+=======
+  get '/users/new' do
+    erb :'users/new'
+  end
+
+  get '/users/:id' do
+    @user = User.find(params[:id])
+    erb :'users/show'
+>>>>>>> 1a030b5174197687577c05b176998c21f5a75891
   end
 
   get '/users/:id/edit' do
@@ -26,6 +36,7 @@ class RedmartSinatraApp < Sinatra::Base
   end
 
   post '/users' do
+<<<<<<< HEAD
     puts params[:user]
     # this is how we do it in pizza shop
     # Pizza.new(parameters to pass in)
@@ -62,6 +73,16 @@ class RedmartSinatraApp < Sinatra::Base
       # throw an error
       erb :"users/#{ @deleted_user.id }"
     end
+=======
+
+  end
+
+  put '/users/:id' do
+
+  end
+
+  delete '/users/:id' do
+>>>>>>> 1a030b5174197687577c05b176998c21f5a75891
 
   end
 end
